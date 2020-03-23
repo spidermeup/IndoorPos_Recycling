@@ -14,3 +14,5 @@ You can save the MAC address with the signals whenever you want. But it will be 
 About the coronavirus: Have your report ready regardless, don't bank on any delays.
 
 As a test could you please write in your readme file that you are seeing these?
+
+23/3/2020: No worries so now i have a channel to talk to all of you from here (or at least some of you.) Whoevers sees this can you send an email to the others so they are aware of the conversation? Awesome thanks!
