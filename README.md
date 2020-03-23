@@ -19,8 +19,8 @@ As a test could you please write in your readme file that you are seeing these?
   For the Mac Address and signal strength to coordinates it is very simple: In python you can store lists of tuples so you can have a list called fingerprints that has the coordinates X and Y, then a list of tuples that include MAC addresses and the signal strength for each address. This would look like below:
  
  <img src="fingerprint.png" width="340" height="284" />
-
+ 
+(The red colored text is just comments to help you understand what is going on)
 This is what the structure looks like try making it and insert fake numbers like the ones i have shown above to see if it works in theory.
 
   On another note I will try take a look probably some time this week at mapview and fix it for you folks, but i have been busy with adapting my flat to WFH and also a paper deadline!
-    
