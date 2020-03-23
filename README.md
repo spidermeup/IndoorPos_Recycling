@@ -17,20 +17,8 @@ As a test could you please write in your readme file that you are seeing these?
 
 23/3/2020: No worries so now i have a channel to talk to all of you from here (or at least some of you.) Whoevers sees this can you send an email to the others so they are aware of the conversation? Awesome thanks!
   For the Mac Address and signal strength to coordinates it is very simple: In python you can store lists of tuples so you can have a list called fingerprints that has the coordinates X and Y, then a list of tuples that include MAC addresses and the signal strength for each address. This would look like below:
-fingerprints = [
-    (52, 46, ["00:A0:C9:14:C8:29", 2),
-              "FF:A0:74:99:88:34", 54),
-              "A6:B7:51:AA:45:BB", 96),
-              "99:24:14:BB:17:AC", 55)
-             ]
-    ),
-    (92, 33, ["00:A0:C9:14:C8:29", 22),
-              "FF:A0:74:99:88:34", 99),
-              "99:24:14:BB:17:AC", 14)
-             ]
-    ),
-    ...
-]
+  
+❮img src="fingerprint.png" width="100" ❯
 
 This is what the structure looks like try making it and insert fake numbers like the ones i have shown above to see if it works in theory.
 
