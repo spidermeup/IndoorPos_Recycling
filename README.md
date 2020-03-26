@@ -24,3 +24,5 @@ As a test could you please write in your readme file that you are seeing these?
 This is what the structure looks like try making it and insert fake numbers like the ones i have shown above to see if it works in theory.
 
   On another note I will try take a look probably some time this week at mapview and fix it for you folks, but i have been busy with adapting my flat to WFH and also a paper deadline!
+
+26/3: continue sending questions if you have any!
