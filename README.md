@@ -28,3 +28,4 @@ This is what the structure looks like try making it and insert fake numbers like
 26/3: continue sending questions if you have any!
 
 1/4: Do you folks have any new code to upload?
+2/4: we can run the demo on a laptop that isnt a big deal.
