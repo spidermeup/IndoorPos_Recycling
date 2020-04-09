@@ -30,3 +30,4 @@ This is what the structure looks like try making it and insert fake numbers like
 1/4: Do you folks have any new code to upload?
 2/4: we can run the demo on a laptop that isnt a big deal.
 8/4: whichever one you guys want! (for the scanner) its your project. Also do we have a draft of the report?
+9/4: awesome on the report. Will check the GUI over the weekend. also forgot to say that you dont need to know how many access points each coordinate will store. Just read them all and the append them to the structure i showed you. So if for instance you read 4 or 50 it wont make a difference. When trying to find the location, the program should iterate through all of the stored coordinates and then see how many MAC IDs are the same and then compare their signal strength. those that don't exist in either case can be put down as 0 when doing the comparison. Hope this helps!!
