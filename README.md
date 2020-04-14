@@ -34,3 +34,5 @@ This is what the structure looks like try making it and insert fake numbers like
 9/4: awesome on the report. Will check the GUI over the weekend. also forgot to say that you dont need to know how many access points each coordinate will store. Just read them all and the append them to the structure i showed you. So if for instance you read 4 or 50 it wont make a difference. When trying to find the location, the program should iterate through all of the stored coordinates and then see how many MAC IDs are the same and then compare their signal strength. those that don't exist in either case can be put down as 0 when doing the comparison. Hope this helps!!
 
 9/4b: No you will assign signal strengths to all coordinates, its just that it should be flexible in terms of how many each coordinate will have. If there are places with no signal then we can use them to map the area.
+
+14/4: the amount of pixels dont matter as long as the rough location corresponds to where you folks were when taking the readings.
