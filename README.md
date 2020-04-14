@@ -35,4 +35,4 @@ This is what the structure looks like try making it and insert fake numbers like
 
 9/4b: No you will assign signal strengths to all coordinates, its just that it should be flexible in terms of how many each coordinate will have. If there are places with no signal then we can use them to map the area.
 
-14/4: the amount of pixels dont matter as long as the rough location corresponds to where you folks were when taking the readings.
+14/4: the amount of pixels dont matter as long as the rough location corresponds to where you folks were when taking the readings. your image is "image size = 1,256px × 477px = 599,112" the total pixels dont really matter here but you should use the dimensions as x,y coordinates. so lets say pixel 759,434 could be the corner of a room where you took a measurment.
