@@ -1,38 +1,13 @@
-# IndoorPos_Recycling
-Indoor Positioning and Recycling
-Hi folks! as you can imagine we are not allowed to move much.
+I think the report was too short!
 
-I have found an interesting library for map depiction
+for a start have a section in the beginning saying what the technical difficulties of the the problem are. For example, you can describe why normal GPS signal wouldnt work, and why just triangulating with wifi signals also doesnt work because the signal does not predictably drop its quality with increased distance. Then you can talk about fingerprinting and explain that it solves the problem of the wifi signal because it effectively creates a mental map of how the signals change in space. On this note, there are many aspects of fingerprinting never mentioned. Collecting the fingerprints from every location (the offline phase) and how it works when a user wants to find out where they are (online phase)
 
-it is this one https://github.com/kivy-garden/garden.mapview
+The other parts also need more information. currently they have a screenshot and just a few sentences. you need to explain what is shown in the images and you need to explain what you did to achieve it. Its ok to say we did not build and deploy it in school as we were shut off, but we tested the individual parts and they work, here is all the theory of how it would work step by step.
 
-i tried it and it works like a charm and you can even load your own map.
+NN and the QR scanner are not of equal importance. In the QR case you just use a library and it works out of the box. the other case you need to understand the method and apply it to your problem. Dont be afraid to make mistakes on how it works with NN. I am here to help you out and correct those. before i tell you what to write though, you should have some detailed text of your own.
 
+He had discussed the problems of privacy and motivating people to recycle and use the app. You could have a section explaining how nothing is stored on a server and everything can be stored locally on peoples phones (the fingerprints). When someone tries to find the location they only need to access the fingerprints collected by you guys during the calibration phase and compare his wifi signals to that.
 
-You can save the MAC address with the signals whenever you want. But it will be best to do it when the school is active (meaining during the day) this way you can get an accurate measurement for when people are walking around (which will slightly affect the readings).
+For the motivation, you could talk that one of the plans was to make it into a contest where the people with the best recycling score would be able to receive some reward from the school, at the end of the year. and talk a bit about how you envision the logistics of making sure that you could accurately count how many products people were actually recycling. This needs more thought, but i think it would really help the report if you had it in there as it shows a complete vision for your project.
 
-About the coronavirus: Have your report ready regardless, don't bank on any delays.
-
-As a test could you please write in your readme file that you are seeing these?
-
-23/3/2020: No worries so now i have a channel to talk to all of you from here (or at least some of you.) Whoevers sees this can you send an email to the others so they are aware of the conversation? Awesome thanks!
-  For the Mac Address and signal strength to coordinates it is very simple: In python you can store lists of tuples so you can have a list called fingerprints that has the coordinates X and Y, then a list of tuples that include MAC addresses and the signal strength for each address. This would look like below:
- 
- <img src="fingerprint.png" width="340" height="284" />
- 
-(The red colored text is just comments to help you understand what is going on)
-This is what the structure looks like try making it and insert fake numbers like the ones i have shown above to see if it works in theory.
-
-  On another note I will try take a look probably some time this week at mapview and fix it for you folks, but i have been busy with adapting my flat to WFH and also a paper deadline!
-
-26/3: continue sending questions if you have any!
-
-1/4: Do you folks have any new code to upload?
-2/4: we can run the demo on a laptop that isnt a big deal.
-8/4: whichever one you guys want! (for the scanner) its your project. Also do we have a draft of the report?
-
-9/4: awesome on the report. Will check the GUI over the weekend. also forgot to say that you dont need to know how many access points each coordinate will store. Just read them all and the append them to the structure i showed you. So if for instance you read 4 or 50 it wont make a difference. When trying to find the location, the program should iterate through all of the stored coordinates and then see how many MAC IDs are the same and then compare their signal strength. those that don't exist in either case can be put down as 0 when doing the comparison. Hope this helps!!
-
-9/4b: No you will assign signal strengths to all coordinates, its just that it should be flexible in terms of how many each coordinate will have. If there are places with no signal then we can use them to map the area.
-
-14/4: the amount of pixels dont matter as long as the rough location corresponds to where you folks were when taking the readings. your image is "image size = 1,256px × 477px = 599,112" the total pixels dont really matter here but you should use the dimensions as x,y coordinates. so lets say pixel 759,434 could be the corner of a room where you took a measurment.
+We can then firm up the conclusion a bit and showcase all the amazing things you folks achieved.
