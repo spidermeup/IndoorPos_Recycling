@@ -1,4 +1,4 @@
-I think the report was too short!
+I think the report was too short.
 
 for a start have a section in the beginning saying what the technical difficulties of the the problem are. For example, you can describe why normal GPS signal wouldnt work, and why just triangulating with wifi signals also doesnt work because the signal does not predictably drop its quality with increased distance. Then you can talk about fingerprinting and explain that it solves the problem of the wifi signal because it effectively creates a mental map of how the signals change in space. On this note, there are many aspects of fingerprinting never mentioned. Collecting the fingerprints from every location (the offline phase) and how it works when a user wants to find out where they are (online phase)
 
@@ -11,3 +11,6 @@ He had discussed the problems of privacy and motivating people to recycle and us
 For the motivation, you could talk that one of the plans was to make it into a contest where the people with the best recycling score would be able to receive some reward from the school, at the end of the year. and talk a bit about how you envision the logistics of making sure that you could accurately count how many products people were actually recycling. This needs more thought, but i think it would really help the report if you had it in there as it shows a complete vision for your project.
 
 We can then firm up the conclusion a bit and showcase all the amazing things you folks achieved.
+
+*NEW*
+Given the amount of time you have I think, just do whatever you think you agree with and you think is best. Good luck!
